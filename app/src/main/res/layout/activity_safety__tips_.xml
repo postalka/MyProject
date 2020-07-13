@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/images"
+
+    android:layout_height="match_parent"
+    tools:context=".Safety_Tips_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/st1"
+        android:layout_marginTop="5dp"
+        android:text="Safety Tips"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"
+        android:text="1> Try sticking and shopping at the safest part of the city."
+        android:layout_marginLeft="5dp"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp"
+        android:text="2> Avoid getting overfriendly with strangers."
+        android:layout_marginLeft="5dp"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="3> Never stay out late at night especially at strange places."
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="5dp"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="5dp"
+        android:text="4> Do not wear expensive  jewaelry or odd clothes while traveling as it may attract burglars."></TextView>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="160dp"
+    android:text="5> Try to carry cell phone along with you while traveling so that you can contact  someone in case of emergency."></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="5dp"
+        android:text="6> While staying in hotels, always keep your door locked whenever you are in your room. For added safety, Keep the safety chain on to prevent any forced entry."></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="290dp"
+        android:text="7> Before opening the door to anyone, use thr peephole. If the person is not in a hotel uniform or looks suspicious, do not open the door. Be wary of revealing your identity on the telephone, especially if you are traveling alone.">
+
+    </TextView>
+
+
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="380dp"
+       android:layout_marginLeft="5dp"
+       android:text="8> Don't flash money around. Just keep enough to meet your immediate needs. When traveling, your best protection is to be knowledgeable and alert. To travel with confidence and a positive attitude."></TextView>
+
+
+
+</RelativeLayout>

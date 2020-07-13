@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+
+    tools:context=".aboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="In case of Hardship Alert can be directly sent to Police Control Room."
+        android:textSize="25dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Use the Help Button."
+        android:textSize="25dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="6dp"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Use the Call Button"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="140dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="AND"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimary"> </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Make sure that your GPS and Mobile Data is ON."
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="250dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorAccent"></TextView>
+
+
+</RelativeLayout>

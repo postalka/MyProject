@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/item1" android:title="Home" android:icon="@drawable/ic_home"></item>
+    <item android:id="@+id/item2" android:title="Profile" android:icon="@drawable/ic_profile"></item>
+    <item android:id="@+id/item3" android:title="My Location" android:icon="@drawable/ic_location"></item>
+    <item android:id="@+id/item4" android:title="About" android:icon="@drawable/ic_about"></item>
+    <item android:id="@+id/item5" android:title="Safety Tips" android:icon="@drawable/safety_tips"></item>
+
+</menu>

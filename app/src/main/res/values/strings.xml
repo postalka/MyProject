@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Raksha</string>
+    <string name="map_key" translatable="false">
+        AIzaSyA2W2lc-K8U0GTPHMIJywYcw_2xkuYmK6w
+    </string>
+    <string name="title_activity_maps">Map</string>
+</resources>

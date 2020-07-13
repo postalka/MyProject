@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Profile_Activity">
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/Pro1"
+        android:layout_width="386dp"
+        android:layout_height="689dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Personal Details"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"></TextView>
+
+    <EditText
+        android:id="@+id/Pro2"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="5dp"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:textStyle="italic"></EditText>
+
+    <EditText
+        android:id="@+id/Pro3"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="0dp"
+        android:hint="Email"
+        android:textSize="20dp"
+        android:textStyle="italic"></EditText>
+
+    <EditText
+        android:id="@+id/pro4"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="0dp"
+        android:hint="Mobile No"
+        android:textSize="20dp"
+        android:textStyle="italic"></EditText>
+
+    <EditText
+        android:id="@+id/Pro5"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="2dp"
+        android:hint="Address"
+        android:textSize="20dp"
+        android:textStyle="italic"></EditText>
+
+    <EditText
+        android:id="@+id/Pro6"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="0dp"
+        android:hint="Pin Code"
+        android:textStyle="italic"
+        android:textSize="20dp"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="330dp"
+        android:hint="Guardian's Phone No.1"
+        android:id="@+id/pro8"/>
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="430dp"
+        android:hint="Guardian's Phone No.3"
+        android:id="@+id/pro10"/>
+
+
+    <Button
+        android:id="@+id/Pro7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginRight="20dp"
+        android:text="Submit"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="bold"></Button>
+
+        <EditText
+            android:id="@+id/pro9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="380dp"
+            android:hint="Guardian's Phone No.2" />
+
+
+
+
+</RelativeLayout>
